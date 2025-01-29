@@ -58,7 +58,7 @@ const App = () => {
                     </div>
                   </div>
                 ))}
-                <Link to="/cart" className="btn btn-dark mt-3">Go to Cart</Link>
+                <Link to="/cart" className="gocart btn btn-dark mt-3">Go to Cart</Link>
               </div>
             </div>
           }
