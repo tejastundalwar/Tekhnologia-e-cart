@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     axios.get("https://dummyjson.com/products")
       .then((response) => {
-        setProducts(response.data.products); // Adjust to match API response
+        setProducts(response.data.products); 
       })
       .catch((error) => {
         console.error("Error fetching products!", error);
